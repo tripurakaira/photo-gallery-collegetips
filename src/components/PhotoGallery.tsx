@@ -79,7 +79,7 @@ const galleryImages: GalleryImage[] = [
     category: 'Team Vibes',
     description: 'Real student success stories from our community',
     source: 'instagram',
-    sourceUrl: 'https://www.instagram.com/p/CN-aBDqpIb7/'
+    sourceUrl: 'https://www.instagram.com/collegetips.in/'
   },
   {
     id: 8,
@@ -97,7 +97,7 @@ const galleryImages: GalleryImage[] = [
     category: 'Creative Campaigns',
     description: 'Celebrating student achievements and success stories',
     source: 'instagram',
-    sourceUrl: 'https://www.instagram.com/collegetips'
+    sourceUrl: 'https://www.instagram.com/collegetips.in/'
   }
 ];
 
@@ -684,7 +684,7 @@ const PhotoGallery: React.FC = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://www.instagram.com/collegetips"
+              href="https://www.instagram.com/collegetips.in/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-purple-600 hover:text-purple-800 flex items-center gap-2 px-4 py-2 rounded-full bg-white shadow-md hover:shadow-lg transition-all duration-300"
